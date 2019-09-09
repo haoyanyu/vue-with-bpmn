@@ -1,0 +1,37 @@
+{
+  "name": "QualityAssurance",
+  "uri": "http://some-company/schema/bpmn/qa",
+  "prefix": "qa",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "types": [
+    {
+		"name": "MyTask",
+		"superClass": [
+			"Task"
+		],
+		"properties": [
+			{
+				"name": "implementation",
+				"isAttr": true,
+				"type": "String"
+			},
+			{
+				"name": "operationRef",
+				"type": "Operation",
+				"isAttr": true,
+				"isReference": true
+			},
+			{
+				"name": "messageRef",
+				"type": "Message",
+				"isAttr": true,
+				"isReference": true
+			}
+		]
+	}
+  ],
+  "emumerations": [],
+  "associations": []
+}

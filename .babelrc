@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", {
+        "useBuiltIns": "usage",
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+        },
+		"corejs": 2
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-syntax-dynamic-import"],
+    ["@babel/plugin-transform-runtime"],
+    ["@vue/babel-plugin-transform-vue-jsx"],
+	["@babel/plugin-proposal-class-properties"],
+	["import", { "libraryName": "ant-design-vue", "libraryDirectory": "es", "style": "true"}]
+  ]
+}

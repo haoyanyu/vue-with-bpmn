@@ -1,0 +1,27 @@
+{
+  "name": "Custom",
+  "prefix": "custom",
+  "uri": "http://magic",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "triangle",
+      "superClass": [ "Element" ],
+      "properties": [
+        {
+          "name": "spell",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "tasktype",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    }
+  ]
+}

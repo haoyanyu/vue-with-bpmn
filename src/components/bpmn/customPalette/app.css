@@ -1,0 +1,46 @@
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].red {
+  color: #cc0000 !important;
+}
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].end {
+  color: #8F99AA !important;
+}
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].default {
+  color: #405265 !important;
+}
+
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].yellow {
+  color: #ffc800 !important;
+}
+
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].green {
+  color: #52B415 !important;
+}
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].warn {
+  color: #ff9900 !important;
+}
+[class^="bpmn-icon-"], [class*=" bpmn-icon-"].info {
+  color: #2db7f5 !important;
+}
+
+.bpmn-icon-start-event-none {
+  color: #19be6b !important;
+}
+.bpmn-icon-end-event-none {
+	color: #c5c8ce !important;
+}
+
+.group .iconfont.end {
+	color: #8F99AA !important;
+}
+.group .iconfont.message {
+	color: #8E95F9 !important;
+}
+.group .iconfont.pushapp {
+	color: #FDA007 !important;
+}
+.group .iconfont.addtag {
+	color: #3B96D9 !important;
+}
+.group .iconfont.removetag {
+	color: #184998 !important;
+}
