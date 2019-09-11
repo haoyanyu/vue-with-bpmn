@@ -9,8 +9,8 @@ import '@bpmn/bpmn-js/dist/assets/diagram-js.css';
 // import '@bpmn/bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
 import '@bpmn/bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
 import '@bpmn/bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
-import '@bpmn/customPalette/app.css';
-import '@bpmn/customPalette/provider/custom.css'
+import '@bpmn/custom/app.css';
+import '@bpmn/custom/custom-panel/custom.css'
 import 'ant-design-vue/dist/antd.less';
 import '@/assets/font/iconfont.css'
 import '@bpmn/diagram/style/style.less'

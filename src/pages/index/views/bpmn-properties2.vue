@@ -10,12 +10,11 @@
 	</div>
 </template>
 <script>
-import BpmnModdle from '@bpmn/customPalette';
+import BpmnModdle from '@bpmn/custom';
 import camundaModdleDescriptor from './custom-elements';
 
 import diagramXml from '../../../assets/diagram1.bpmn';
-import cusomElements from '@bpmn/customPalette/custom-element.json';
-import customPanel from '@bpmn/customPalette/provider/customPanel'
+import customPanel from '@bpmn/custom/custom-panel/customPanel'
 
 
 export default {

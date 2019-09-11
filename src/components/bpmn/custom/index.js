@@ -7,7 +7,7 @@ import {
 
 import inherits from 'inherits';
 
-import CustomModule from './custom';
+import CustomModule from './custom-bpmn';
 
 
 export default function CustomModeler(options) {

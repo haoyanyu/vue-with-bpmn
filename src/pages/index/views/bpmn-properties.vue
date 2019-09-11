@@ -10,14 +10,13 @@
 	</div>
 </template>
 <script>
-import BpmnModdle from '@bpmn/customPalette';
+import BpmnModdle from '@bpmn/custom';
 import propertiesPanelModule from 'bpmn-js-properties-panel';
 import propertiesProviderModule from 'bpmn-js-properties-panel/lib/provider/camunda';
 import camundaModdleDescriptor from './custom-elements';
 
 import diagramXml from '../../../assets/diagram1.bpmn';
-import cusomElements from '@bpmn/customPalette/custom-element.json';
-import customModdleDescriptor from '@bpmn/customPalette/provider'
+import customModdleDescriptor from '@bpmn/custom/custom-panel'
 
 
 export default {
@@ -47,11 +46,9 @@ export default {
 				},
 				additionalModules: [
 					propertiesPanelModule,
-					// propertiesProviderModule
 					customModdleDescriptor
 				],
 				moddleExtensions: {
-					// custom: cusomElements,
 					camunda: camundaModdleDescriptor
 				}
 
