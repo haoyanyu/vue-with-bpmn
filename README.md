@@ -17,3 +17,8 @@ config/index.js中，mutiplePages属性为true，则为多页面打包
 ```npm run dev ```
 
 ```npm run build```
+
+- components/bpmn存放的是bpmn流程图组件
+- components/customPalette 存放的是自定义的bpmn配置
+  - custom里是流程图画布渲染配置
+  - provider是节点属性控制面板配置

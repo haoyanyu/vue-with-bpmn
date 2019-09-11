@@ -18,6 +18,7 @@
       <bpmn:extensionElements>
         <camunda:properties>
           <camunda:property name="tagnames" value="老人" />
+          <camunda:property name="tagnames1" value="老人1" />
         </camunda:properties>
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_0y1iisj</bpmn:incoming>

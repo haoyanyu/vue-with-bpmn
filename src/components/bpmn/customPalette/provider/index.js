@@ -1,8 +1,6 @@
 import CustomPropertiesProvider from './PropertiesProvider';
-// import PropertiesPanel from './propertiesPanel';
 
 export default {
-  __init__: ['propertiesProvider', 'propertiesPanel' ],
+  __init__: ['propertiesProvider'],
   propertiesProvider:['type', CustomPropertiesProvider]
-//   propertiesPanel: [ 'type', PropertiesPanel ]
 };

@@ -3,22 +3,36 @@ import Vuex from 'vuex';
 Vue.use(Vuex)
 
 const state = {
-	menu: [{
-			key: 'bpmn-list',
-			title: '流程列表',
-			path: 'bpmn-list',
-			icon: 'icon-liucheng'
-		},
+	menu: [
 		{
 			key: 'bpmn',
-			title: '新建流程',
+			title: '初始流程图',
 			path: 'bpmn',
 			icon: 'icon-fangkuai'
 		},
 		{
-			key: 'bpmn-test',
-			title: '新建',
-			path: 'bpmn-test',
+			key: 'bpmn-color',
+			title: '自定义颜色',
+			path: 'bpmn-color',
+			icon: 'icon-liucheng'
+		},
+		
+		{
+			key: 'bpmn-shape',
+			title: '自定义形状',
+			path: 'bpmn-shape',
+			icon: 'icon-fangkuai'
+		},
+		{
+			key: 'bpmn-properties',
+			title: '自定义属性面板',
+			path: 'bpmn-properties',
+			icon: 'icon-fangkuai'
+		},
+		{
+			key: 'custom-properties',
+			title: '自定义属性面板pro',
+			path: 'custom-properties',
 			icon: 'icon-fangkuai'
 		}
 	]

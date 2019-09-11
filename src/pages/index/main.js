@@ -23,6 +23,7 @@ import Row from 'ant-design-vue/lib/row'
 import Col from 'ant-design-vue/lib/col'
 import Input from 'ant-design-vue/lib/input'
 import Button from 'ant-design-vue/lib/button'
+import Modal from 'ant-design-vue/lib/modal'
 
 Vue.use(Icon)
 Vue.use(Form)
@@ -30,6 +31,7 @@ Vue.use(Col)
 Vue.use(Row)
 Vue.use(Input)
 Vue.use(Button)
+Vue.use(Modal)
 Vue.prototype.$message = message;
 
 Vue.prototype.bus = new Vue();

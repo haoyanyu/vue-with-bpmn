@@ -373,6 +373,7 @@ ReplaceMenuProvider.prototype._createMenuEntry = function(definition, element, a
 
   var menuEntry = {
     label: translation[definition.label],
+    // label: definition.label,
     className: definition.className,
     id: definition.actionName,
     action: action

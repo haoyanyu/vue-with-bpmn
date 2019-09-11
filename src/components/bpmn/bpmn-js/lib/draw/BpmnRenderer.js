@@ -919,7 +919,7 @@ export default function BpmnRenderer(
 		},
 
 		'bpmn:Task': function (parentGfx, element, attr = {}) {
-			var strokeColor = attr.strokeColor || defaultStrokeColor
+			var strokeColor = attr.strokeColor || 'red'
 			var attrs = {
 				fill: getFillColor(element, strokeColor),
 				stroke: getStrokeColor(element, strokeColor)
