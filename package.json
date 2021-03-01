@@ -63,7 +63,7 @@
     "bpmn-js-properties-panel": "^0.32.1",
     "bpmn-moddle": "^6.0.0",
     "cross-env": "^5.2.0",
-    "three": "^0.108.0",
+    "three": "^0.125.0",
     "three.js": "^0.77.1",
     "vue": "^2.6.10",
     "vue-router": "^3.1.2",
